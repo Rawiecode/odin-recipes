@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/manila.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.wrapper ul {
+    list-style: none;
+    margin-top: 2%;
+}
+
+.wrapper ul li {
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 25x;
+    position: relative;
+}
+
+.wrapper ul li:hover {
+    background: crimson;
+}
+
+.wrapper ul ul {
+    display: none;
+    margin-left: 170x;
+    top: 0;
+    position: absolute;
+}
+
+.wrapper ul li:hover > ul {
+    display: block;
+    position: relative;
+}
+
+.wrapper p {
+    float: left;
+    font-size: 35px;
+    margin: 0px;
+    padding: 10px 10px;
+    font-family:sans-serif;
+    font-weight:bolder;
+}
+
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: wheat;
+}
