@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -19,12 +20,13 @@ body {
 .wrapper ul {
     list-style: none;
     margin-top: 2%;
+    z-index: 1000;
 }
 
 .wrapper ul li {
     background: wheat;
     width: 110px;
-    border: 1px solid #fff;
+    border: 2px solid white;
     height: 45px;
     line-height: 50px;
     text-align: center;
@@ -32,7 +34,6 @@ body {
     color: black;
     font-size: 25x;
     position: relative;
-    font-family: sans-serif;
     font-weight:900;
 }
 
@@ -73,5 +74,55 @@ body {
 }
 
 .me {
-    background-image: url(../img/me.jpg)
+    float:left;
+    margin-left: 15px 15px 0px 15px;
+    position: relative;
+    top: 175px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15;
+    line-height: 1.5;
+    width: 700px;
+    height: 75px;
+}
+
+img {
+    float:left;
+    background-color: white;
+    padding: 5px;
+    margin-right: 25px;
+}
+
+.aboutme {
+    float:right;
+}
+
+.sinigang {
+    clear: both;
+    float:left;
+    margin-left: 15px 15px 0px 15px;
+    position: relative;
+    top: 50px;
+    right: -350px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15;
+    line-height: 1.5;
+    width: 700px;
+    height: 535px;
+}
+
+.intro {
+    position: absolute;
+    font-size: 25px;
+    padding: 10px 10px;
+    width: 1000px;
+    height: 50px;
+    right: 125px;
+    top: 75px;
+    color: lightyellow;
 }
