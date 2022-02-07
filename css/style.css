@@ -12,6 +12,11 @@ body {
     font-family: sans-serif;
 }
 
+a:link, a:focus, a:active, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
 .wrapper {
     width: 860px;
     margin: 0 auto;
@@ -125,4 +130,38 @@ img {
     right: 125px;
     top: 75px;
     color: lightyellow;
+}
+
+.sisig {
+    clear: both;
+    float:left;
+    margin-left: 15px 15px 0px 15px;
+    position: relative;
+    top: 50px;
+    right: -350px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15;
+    line-height: 1.5;
+    width: 650px;
+    height: 535px;
+}
+
+.spaghetti {
+    clear: both;
+    float:left;
+    margin-left: 15px 15px 0px 15px;
+    position: relative;
+    top: 50px;
+    right: -350px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    font-size: 15;
+    line-height: 1.5;
+    width: 500px;
+    height: 500px;
 }
