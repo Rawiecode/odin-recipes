@@ -10,6 +10,7 @@ body {
     background-position: center center;
     height: 100vh;
     font-family: sans-serif;
+    background-repeat: no-repeat;
 }
 
 a:link, a:focus, a:active, a:visited {
