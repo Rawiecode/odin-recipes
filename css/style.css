@@ -25,7 +25,6 @@ a:link, a:focus, a:active, a:visited {
 
 .wrapper ul {
     list-style: none;
-    margin-top: 2%;
     z-index: 1000;
 }
 
